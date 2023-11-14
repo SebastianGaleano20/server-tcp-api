@@ -1,0 +1,13 @@
+{
+  "name": "api-server-tcp",
+  "version": "1.0.0",
+  "description": "Creacion de server-TCP-API",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "client" : "node client/client.js"
+  },
+  "keywords": ["tcp","server","client","api"],
+  "author": "Sebastian Galeano",
+  "license": "ISC"
+}
