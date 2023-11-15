@@ -1,1 +1,25 @@
-[]
+{
+    "pizzas": [
+      {
+        "id": 1,
+        "nombre": "Margherita",
+        "ingredientes": ["salsa de tomate", "mozzarella", "albahaca"],
+        "precio": 8.99,
+        "tamaño": "mediana"
+      },
+      {
+        "id": 2,
+        "nombre": "Pepperoni",
+        "ingredientes": ["salsa de tomate", "mozzarella", "pepperoni"],
+        "precio": 9.99,
+        "tamaño": "grande"
+      },
+      {
+        "id": 3,
+        "nombre": "Vegetariana",
+        "ingredientes": ["salsa de tomate", "mozzarella", "pimientos", "cebolla", "aceitunas"],
+        "precio": 10.99,
+        "tamaño": "grande"
+      }
+      ]
+  }
