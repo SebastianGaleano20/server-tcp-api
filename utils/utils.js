@@ -5,11 +5,11 @@ const readData = () => {
     const jsonData = fs.readFileSync("./database/pizza.json"); 
     const pizzas = JSON.parse(jsonData); 
     return pizzas;       
-}
+};
 /*
 -Utilizamos fs.readFileSync para leer la base de datos
--Utilizamos JSON.parse para parsear y poder mostrar la base de datos
--Retornamos la base de datos  */
+-Utilizamos JSON.parse para obtener los datos en un objeto y poder utilizarlo.
+-Retornamos la base de datos en formato objeto  */
 
 const writeData = (jsonData) =>{
     fs.writeFileSync("../database/pizza.json", jsonData);

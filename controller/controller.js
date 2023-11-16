@@ -27,7 +27,7 @@ const addPizza = (newPizza) => {
   return "Pizza added successfully :)";
 };
 
-const deletePizza = (id) => {
+const deletePizzaById = (id) => {
     const pizzas = readData();
     const pizza = pizzas.find((pizza) =>{
         pizza.id === id;
@@ -42,4 +42,4 @@ const deletePizza = (id) => {
 
 console.log(getPizzas());
 
-export { getPizzas, getPizzaById, addPizza, deletePizza };
+export { getPizzas, getPizzaById, addPizza, deletePizzaById };
